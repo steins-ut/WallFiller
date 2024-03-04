@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d8ed5846c6e99c41a13fd49434e2b98, type: 3}
+  m_Name: test
+  m_EditorClassIdentifier: 
+  _padRows: 7
+  _padColumns: 3
+  _hasLeftArm: 1
+  _leftArmRange: 2
+  _hasRightArm: 1
+  _rightArmRange: 2
+  _hasTopArm: 1
+  _topArmRange: 2
+  _hasBottomArm: 1
+  _bottomArmRange: 2
+  _nextWallsQueue:
+  - WallCount: 5
+    HoleCount: 2
+    Difficulty: 50
+    DifficultyTolerance: 50
+    SpawnTime: 5
+    ArrivalTime: 5
